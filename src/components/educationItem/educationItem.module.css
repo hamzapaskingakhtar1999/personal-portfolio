@@ -1,0 +1,47 @@
+.educationItem {
+  border-radius: 20px;
+  padding: 15px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #d5d0c1;
+  color: black;
+  gap: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dateRange {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 2px 35px 2px 25px;
+  border-radius: 50px;
+  width: max-content;
+  height: 40px;
+  background-color: #0c0c0c;
+  color: darkgoldenrod;
+  font-weight: 700;
+}
+
+.middle {
+  display: flex;
+  gap: 10px;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+}
+
+.simpleIconText {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+  align-items: center;
+}
