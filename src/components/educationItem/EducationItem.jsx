@@ -8,6 +8,9 @@ import calendar from "../../assets/svg/Education/calendar.svg";
 import level from "../../assets/svg/Education/level.svg";
 
 const EducationItem = ({ item }) => {
+  {
+    console.log(item.degreeIcon);
+  }
   return (
     <div className={styles.educationItem}>
       {/* Top: Year Range + Education Level*/}

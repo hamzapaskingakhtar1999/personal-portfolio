@@ -26,7 +26,7 @@ const Education = () => {
       locationIcon: location,
     },
     {
-      date: "January 2024 - January 2025",
+      date: "Jan 2024 - Jan 2025",
       dateIcon: calendar,
       level: "Graduate",
       levelIcon: calendar,
