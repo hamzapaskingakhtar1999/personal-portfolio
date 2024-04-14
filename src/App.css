@@ -3,10 +3,11 @@ body {
 }
 
 .center {
-  width: 80%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   margin: auto;
+  position: relative;
 }
 
 .yellow {
@@ -37,22 +38,58 @@ body {
   outline: none;
   border-width: 2px;
   padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin: 10px 0;
+  font-size: 21px;
+  box-shadow: none;
+  max-width: max-content;
+}
+
+.yellowButton {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: #efae02;
+  color: black;
+  border: 1px solid #efae02;
+  outline: none;
+  border-width: 2px;
+  padding: 10px 20px 10px 20px;
   width: max-content;
   border-radius: 30px;
   cursor: pointer;
   margin: 10px 0;
   font-size: 21px;
   box-shadow: none;
-  margin: auto;
 }
 
 .removeAll {
   all: unset;
 }
 
-@media screen and (max-width:600px) {
+.hideOnSmallDevice {
+  display: inline;
+}
+
+.links {
+  all: "unset";
+  padding: "10px 30px";
+  background-color: "black";
+  color: "white";
+  border-radius: "30px";
+  cursor: "pointer";
+}
+
+@media screen and (max-width: 600px) {
   .center {
     width: 98%;
-
+  }
+  .hideOnSmallDevice {
+    display: none;
+  }
+  .main-heading {
+    font-size: 31px;
   }
 }

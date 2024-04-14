@@ -1,0 +1,54 @@
+.connect {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 15px;
+  background-color: white;
+  margin-top: 40px;
+  border-radius: 40px;
+}
+
+.connectForm {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  position: relative;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.columnItem {
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  background-color: "#f3f3f3";
+  padding: 12px 24px 12px 16px;
+  border-radius: 40px;
+  border: 1px solid #e2e2e2;
+}
+
+input {
+  all: unset;
+  padding-left: 10px;
+  color: black;
+  width: 100%;
+}
+
+textarea {
+  all: unset;
+  color: black;
+  border: 1px solid #e2e2e2;
+  border-radius: 40px;
+  background-color: "#f3f3f3";
+  padding: 14px 24px 14px 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .columns {
+    flex-direction: column;
+  }
+}

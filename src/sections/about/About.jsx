@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./about.module.css";
 
-import IconText from "../../components/iconText/IconText"
+import IconText from "../../components/iconText/IconText";
 
 import headphone from "../../assets/svg/headphone.svg";
 import books from "../../assets/svg/books.svg";
@@ -109,8 +109,8 @@ const About = () => {
       </div>
       {/* Button to Contact Me */}
 
-      <button className="transparentYellowButton">
-        About Me
+      <button className="transparentYellowButton" style={{ margin: "auto" }}>
+        Contact Me
         <CiCircleChevDown size={31} />
       </button>
     </div>

@@ -11,19 +11,13 @@ import Connect from "./sections/connect/Connect";
 import Footer from "./sections/footer/Footer";
 
 import "./App.css";
+import Header from "./sections/header/Header";
 
 const App = () => {
   return (
     <div className="center">
+      <Header />
       <Hero />
-      {/*     <hr
-        style={{
-          border: "1px solid yellow",
-          width: "100%",
-          marginTop: 30,
-          marginBottom: 30,
-        }}
-      /> */}
       <About />
       <Education />
       <Experience />
