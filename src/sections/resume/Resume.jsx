@@ -4,6 +4,8 @@ import styles from "./resume.module.css";
 
 import hamza from "../../assets/images/resume/hamza.jpeg";
 
+import hamzacv from "../../hamza_cv.pdf";
+
 import { MdDownloading } from "react-icons/md";
 
 const Resume = () => {
@@ -33,12 +35,16 @@ const Resume = () => {
         {/* Buttons */}
         <div className={styles.bottomButton}>
           {/* Resume */}
-          <button className="transparentYellowButton">
-            Resume
-            <MdDownloading size={22} />
-          </button>
-          <button className="yellowButton">Discuss Project</button>
-          {/* Discuss Project */}
+          <a href={hamzacv} download="Hamza CV" style={{ all: "unset" }}>
+            <button className="transparentYellowButton">
+              Resume
+              <MdDownloading size={31} />
+            </button>
+          </a>
+          <a href="#connect" style={{ all: "unset" }}>
+            {/* Discuss Project */}
+            <button className="yellowButton">Discuss Project</button>
+          </a>
         </div>
       </div>
     </div>

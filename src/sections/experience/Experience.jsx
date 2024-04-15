@@ -1,6 +1,6 @@
 import React from "react";
 
-import styles from "./experience.module.css"
+import styles from "./experience.module.css";
 
 import calendar from "../../assets/svg/Education/calendar.svg";
 import ExperienceItem from "../../components/experienceItem/ExperienceItem";
@@ -15,17 +15,15 @@ const Experience = () => {
       dateIcon: calendar,
       position: "Full Stack Web Developer",
       positionIcon: calendar,
-      points: ["Point 1", "Point 2", "Point 3", "Point 4"],
-    },
-    {
-      company: "Precise Technology",
-      companyIcon: calendar,
-      companyLocation: "Remote - Canada",
-      date: "Sep 2022 - Oct 2022",
-      dateIcon: calendar,
-      position: "Frontend Web Developer",
-      positionIcon: calendar,
-      points: ["Point 1", "Point 2", "Point 3", "Point 4"],
+      points: [
+        "Making sure the websites are responsive to different screen sizes using CSS, resulting in improved userexperience and engagement.",
+        "Create designs and build stable and maintainable codebase using ReactJS.",
+        "Implement additional features and integrated to the application",
+        "Frequent testing to ensure that all the components are working as it should. Provide support to clients for any bugs that arise.",
+        "Develop landing pages for business by using WordPress to effectively showcase their services.",
+        "Managed to optimize the website leading to an overall increase of the performance score up to 85+ in both desktop and mobile",
+        "Working directly with clients to develop technical solutions for their business cases.",
+      ],
     },
     {
       company: "Codsoft",
@@ -35,7 +33,10 @@ const Experience = () => {
       dateIcon: calendar,
       position: "Full Stack Web Developer",
       positionIcon: calendar,
-      points: ["Point 1", "Point 2", "Point 3", "Point 4"],
+      points: [
+        "Developed user interfaces using ReactJS and integrate with database (MongoDB)",
+        "Manage authentication in the web applications through JWT’s.",
+      ],
     },
   ];
 

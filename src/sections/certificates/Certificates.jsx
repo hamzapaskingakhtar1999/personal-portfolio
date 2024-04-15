@@ -34,7 +34,7 @@ const certifcateList = [
   {
     from: "Coursera",
     fromIcon: calendar,
-    certificateName: "Introduction to Frontend DevelopmentF",
+    certificateName: "Introduction to Frontend Development",
     certicateLink:
       "https://www.coursera.org/account/accomplishments/certificate/S3FQ5SK9FTJ9",
     gradient: false,

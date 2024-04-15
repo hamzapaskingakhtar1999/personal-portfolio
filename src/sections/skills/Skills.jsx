@@ -1,4 +1,7 @@
 import React from "react";
+
+import hamza from "../../hamza_cv.pdf"
+
 import IconText from "../../components/iconText/IconText";
 
 import html from "../../assets/svg/Tools/html.svg";
@@ -86,14 +89,20 @@ const Skills = () => {
         ))}
       </div>
       {/* Button Download Resume */}
-
-      <button
-        className="transparentYellowButton"
-        style={{ margin: "50px auto 0 auto" }}
+      <a
+        href={hamza}
+        download="Hamza_CV"
+        target="_blank"
+        style={{ all: "unset" }}
       >
-        Download Resume
-        <MdOutlineFileDownload size={31} />
-      </button>
+        <button
+          className="transparentYellowButton"
+          style={{ margin: "50px auto 0 auto" }}
+        >
+          Download Resume
+          <MdOutlineFileDownload size={31} />
+        </button>
+      </a>
     </div>
   );
 };

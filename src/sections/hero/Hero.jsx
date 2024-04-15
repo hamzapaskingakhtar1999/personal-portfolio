@@ -6,6 +6,8 @@ import ready from "../../assets/images/hero/ready.png";
 import hand from "../../assets/svg/Hero/hand.svg";
 import download from "../../assets/svg/Hero/download.svg";
 
+import hamza from "../../hamza_cv.pdf";
+
 const Hero = () => {
   return (
     <div className={styles.hero} id="home">
@@ -21,7 +23,7 @@ const Hero = () => {
         <p className={styles.profession}>
           A{" "}
           <span style={{ fontSize: "31px", color: "white", fontWeight: "600" }}>
-            Full Stack Web Developer | Data Analyst
+            Full Stack Web Developer
           </span>
         </p>
         <p className={styles.experience}>
@@ -42,11 +44,20 @@ const Hero = () => {
         </p>
         {/* Buttons */}
         <div className={styles.buttons}>
-          <button className="transparentYellowButton">
-            <img src={download} style={{ width: "30px", height: "30px" }} />
-            Resume
-          </button>
-          <button className="yellowButton">Hire Me </button>
+          <a
+            href={hamza}
+            download="Hamza_CV"
+            target="_blank"
+            style={{ all: "unset" }}
+          >
+            <button className="transparentYellowButton">
+              <img src={download} style={{ width: "30px", height: "30px" }} />
+              Resume
+            </button>
+          </a>
+          <a href="#connect" style={{ all: "unset" }}>
+            <button className="yellowButton">Hire Me</button>
+          </a>
         </div>
       </div>
 

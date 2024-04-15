@@ -108,11 +108,12 @@ const About = () => {
         </p>
       </div>
       {/* Button to Contact Me */}
-
-      <button className="transparentYellowButton" style={{ margin: "auto" }}>
-        Contact Me
-        <CiCircleChevDown size={31} />
-      </button>
+      <a href="#connect" style={{ all: "unset" }}>
+        <button className="transparentYellowButton" style={{ margin: "auto" }}>
+          Contact Me
+          <CiCircleChevDown size={31} />
+        </button>
+      </a>
     </div>
   );
 };

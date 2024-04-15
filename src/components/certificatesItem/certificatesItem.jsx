@@ -25,10 +25,12 @@ const certificatesItem = ({ item }) => {
       {/* Middle Title */}
       <h2 style={{ color: "black" }}>{item.certificateName}</h2>
       {/* View Button */}
-      <button className={styles.viewLink}>
-        <FaRegEye size={22} />
-        <h3>View</h3>
-      </button>
+      <a href={item.certicateLink} style={{all:"unset"}}>
+        <button className={styles.viewLink}>
+          <FaRegEye size={22} />
+          <h3>View</h3>
+        </button>
+      </a>
     </div>
   );
 };

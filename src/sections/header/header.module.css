@@ -21,6 +21,7 @@
   flex-direction: row;
   align-items: center;
   gap: 22px;
+  flex-wrap: wrap;
 }
 
 .navbarItem {
@@ -29,4 +30,50 @@
   color: white;
   border-radius: 30px;
   cursor: pointer;
+}
+.show {
+  display: none;
+}
+
+.burger {
+  all: unset;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 12px 10px;
+  border-radius: 100px;
+  overflow: hidden;
+  position: absolute;
+  right: 20px;
+  background-color: white;
+}
+
+.line1,
+.line2,
+.line3 {
+  width: 30px;
+  height: 4px;
+  background-color: black;
+}
+
+.line1.tilt,
+.line3.tilt {
+  transform: rotate(30deg);
+}
+
+@media screen and (min-width: 100px) {
+  .navbarItems {
+    display: none;
+  }
+  .navbarItems.show {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .navbarItems {
+    font-size: 15px;
+    gap: 0px;
+    flex-direction: column;
+  }
 }
