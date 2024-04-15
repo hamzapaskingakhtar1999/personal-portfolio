@@ -23,7 +23,7 @@ const About = () => {
   ];
 
   return (
-    <div className={styles.about}>
+    <div className={styles.about} id="about">
       <h1 className="yellow main-heading">About Me</h1>
       {/* Stats */}
       <div className={styles.stats}>

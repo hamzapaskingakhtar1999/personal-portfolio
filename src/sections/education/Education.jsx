@@ -43,7 +43,7 @@ const Education = () => {
   ];
 
   return (
-    <div>
+    <div className={styles.education} id="education">
       <h1 className="main-heading yellow">Education</h1>
       {/* Education Items */}
       <div className={styles.educationItems}>

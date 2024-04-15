@@ -43,7 +43,7 @@ const certifcateList = [
 
 const Certificates = () => {
   return (
-    <div className={styles.certificates}>
+    <div className={styles.certificates} id="certificates">
       <h1 className="yellow main-heading">Certificates</h1>
       <div className={styles.certificateItems}>
         {certifcateList.map((item) => (

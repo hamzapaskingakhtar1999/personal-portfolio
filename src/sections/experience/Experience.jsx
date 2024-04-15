@@ -1,5 +1,7 @@
 import React from "react";
 
+import styles from "./experience.module.css"
+
 import calendar from "../../assets/svg/Education/calendar.svg";
 import ExperienceItem from "../../components/experienceItem/ExperienceItem";
 
@@ -38,7 +40,7 @@ const Experience = () => {
   ];
 
   return (
-    <div>
+    <div className={styles.experience} id="experience">
       <h1 className="main-heading yellow">Experience</h1>
       {/* Experience Items */}
       <div>

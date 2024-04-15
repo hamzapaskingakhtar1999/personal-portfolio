@@ -8,7 +8,7 @@ import download from "../../assets/svg/Hero/download.svg";
 
 const Hero = () => {
   return (
-    <div className={styles.hero}>
+    <div className={styles.hero} id="home">
       {/* Left */}
       <div className={styles.left}>
         <h1 className={styles.name}>

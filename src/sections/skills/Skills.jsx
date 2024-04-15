@@ -86,7 +86,11 @@ const Skills = () => {
         ))}
       </div>
       {/* Button Download Resume */}
-      <button className="transparentYellowButton" style={{ marginTop: 40 }}>
+
+      <button
+        className="transparentYellowButton"
+        style={{ margin: "50px auto 0 auto" }}
+      >
         Download Resume
         <MdOutlineFileDownload size={31} />
       </button>

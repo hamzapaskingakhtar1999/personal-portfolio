@@ -7,7 +7,13 @@
   gap: 50px;
   margin-top: 10px;
   position: fixed;
-  width: inherit;
+  top: 0;
+  left: 50%; /* Center the header */
+  transform: translateX(-50%); /* Shift it back by half its own width */
+  width: inherit; /* Match the width of the parent */
+  max-width: inherit; /* Prevent it from exceeding the parent's width */
+  z-index: 99;
+  box-sizing: border-box; /* Include padding and border in the width calculation */
 }
 
 .navbarItems {

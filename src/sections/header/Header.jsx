@@ -5,13 +5,13 @@ import styles from "./header.module.css";
 import hpa from "../../assets/images/hpa.png";
 
 const item = [
-  { link: "/", title: "Home" },
-  { link: "/", title: "About Me" },
-  { link: "/", title: "Education" },
-  { link: "/", title: "Experience" },
-  { link: "/", title: "Certificates" },
-  { link: "/", title: "Projects" },
-  { link: "/", title: "Connect" },
+  { link: "#root", title: "Home" },
+  { link: "#about", title: "About Me" },
+  { link: "#education", title: "Education" },
+  { link: "#experience", title: "Experience" },
+  { link: "#certificates", title: "Certificates" },
+  { link: "#projects", title: "Projects" },
+  { link: "#connect", title: "Connect" },
 ];
 
 const Header = () => {
